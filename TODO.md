@@ -19,6 +19,7 @@
 
 ## Header
 - [X] feat(html, css): add nav bar
+- [X] feat(html, css): add home dropdown link
 - [ ] feat(html, css): create "Work with Me" form button
 
 ## Hero Section
@@ -30,11 +31,13 @@
 - [ ] feat(html, css): adjust hero section's styling to accord with mobile mockup
 
 ## Art Section
-  - [ ] feat(html, css): create containers for art type sub-sections
-  - [ ] feat(css): add content to art type sub-sections
+- [X] feat(html, css): create general layout for art type sub-sections
+- [ ] feat(html, css): create general layout for works
+- [ ] feat(html, css): add content to pixel & retro art sub-section
+- [ ] feat(html, css): add sub-sections
 
 ## Footer
-- [ ] feat(html, css): add a footer
+- [X] feat(html, css): add a footer
 
 ## Responsive Design
 

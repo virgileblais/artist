@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 #nav-container {
@@ -12,6 +11,7 @@
     top: 0;
     width: 100%;
     background-color: #3399ff;
+    font-family: sans-serif;
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -98,6 +98,7 @@ body {
 #hero-section {
     background-color: #3399ff;
     color: white;
+    font-family: sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 
     /* border: 1px solid red; */
@@ -158,7 +159,7 @@ span {
 }
 
 /*WORKS SECTION*/
-#resource-section {
+#works-section {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
@@ -170,66 +171,102 @@ span {
     color: #3399ff;
 }
 
-/*UNDERSTANDING BCI SECTION*/
-#understanding-bci-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr;
-    row-gap: 2vh;
-    column-gap: 2vh;
-
-    /* border: 1px solid red; */
+.subsection-title-text {
+    font-family: sans-serif;
 }
 
-.resource-container {
-    height: 8vh;
+.work-container {
+    height: 16vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 3fr 1fr; /*swapped from 3fr 1fr */
+    grid-template-rows: 85% 15%;
     background-color: #3399ff;
-    color: white;
     justify-items: center;
     align-items: end;
 }
 
-#understanding-bci-title-text {
+.work {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 100%;
+    width: 100%;
+}
+
+.tech-title-container {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 100%;
+    align-items: center;
+    background-color: #3399ff;
+}
+
+.tech-titles {
+    padding-left: 1vw;
+    font-size: 1.5vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+/*PIXEL & RETRO ART SECTION*/
+#pixel-and-retro-art-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    row-gap: 2vh;
+    column-gap: 2vh;
+}
+
+#pixel-and-retro-art-title-text {
     grid-area: 1 / 1 / 2 / 3;
 }
 
-#what-is-bci-container {
+#rocket-work-container {
     grid-area: 2 / 1 / 3 / 2;
 }
 
-#success-stories-container {
+#digital-rain-work-container {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-#safety-container {
-    grid-area: 3 / 1 / 4 / 2;
+@font-face {
+    font-family: 'digital-rain';
+    src: url('assets/fonts/digital-rain.ttf') format('truetype');
 }
 
-#is-this-legit-container {
-    grid-area: 3 / 2 / 4 / 3;
+.digital {
+    position: relative;
+    font-family: 'digital-rain';
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
 }
 
-.resource-container iframe {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 3.1 / 1;
-    /* ^^ forced temp fix for the iframe overflow issue. try wrappers + padding instead of aspect ratio */
-    /* aspect-ratio: 16 / 9; */
-    grid-area: 1 / 1 / 2 / 2;
-
-    /* border: 1px solid red; */
+.digital-column {
+    position: absolute;
+    bottom: 8rem;
+    font-size: 0.5rem;
+    animation: digitalRain linear infinite;
+    text-shadow: linear-gradient(rgba(0, 255, 0, 0.1), transparent, white);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-.resource-container h6 {
-    grid-area: 2 / 1 / 3 / 2;
-
-    /* border: 1px solid red; */
+.digital-column span:first-child {
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white;
 }
 
-/*GET INVOLVED SECTION*/
+@keyframes digitalRain {
+    to {
+        transform: translateY(calc(100% + 8rem)); 
+    }
+}
+
+.digital span {
+    display: block;
+    transform: rotate(90deg);
+    margin-bottom: 0.2rem;
+}
+
+/*GLITCH ART SECTION*/
 #get-involved-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -260,10 +297,14 @@ span {
     grid-area: 3 / 2 / 4 / 3;
 }
 
-.resource-container img {
+.work-container img {
     background-color: white;
     /* width: 100%; */
 }
+/*ILLUSTRATION SECTION*/
+/*WEB DESIGN SECTION*/
+/*VIDEO SECTION*/
+/*PRINT DESIGN SECTION*/
 
 
 /*FOOTER SECTION*/
