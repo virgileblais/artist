@@ -2,7 +2,7 @@
 
 ## General Tasks
   - [X] feat(xcf, png): create mobile webpage mockup
-  - [ ] feat(html): create general layout and containers
+  - [X] feat(html): create starter layout and containers
   - [ ] feat(html): add meta tags
   - [ ] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
