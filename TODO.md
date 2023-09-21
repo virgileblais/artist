@@ -23,10 +23,11 @@
 
 ## Hero Section
 - [X] feat(xcf, gif): create glitch version of profile picture
-- [ ] feat(html, css): add profile picture illustration
-- [ ] feat(html, css): write and add introductory hero text
-  - Hey, I'm Virgile. Not only am I a developer, but I'm also an artist skilled across various mediums and technologies.
-- [ ] feat(html, css): write and add technologies list
+- [X] feat(html, css): add profile picture illustration
+- [X] feat(html, css): write and add introductory hero text
+  - Not only am I a developer, but I'm also an artist skilled across various mediums and technologies.
+- [X] feat(html, css): write and add technologies list
+- [ ] feat(html, css): adjust hero section's styling to accord with mobile mockup
 
 ## Art Section
   - [ ] feat(html, css): create containers for art type sub-sections
