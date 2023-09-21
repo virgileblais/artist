@@ -198,9 +198,7 @@ span {
 
 .before-work-container {
     grid-area: 1 / 1 / 2 / 2;
-    background-image:url('assets/starship-real.jpg');
-    background-size: cover;
-    background-position: center;
+    background: white;
 }
 
 .after-work-container {
@@ -252,6 +250,12 @@ span {
 
 #rocket-work-container {
     grid-area: 2 / 1 / 3 / 2;
+}
+
+#real-starship-container {
+    background-image:url('assets/starship-real.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 #rocket {
@@ -317,12 +321,36 @@ span {
     grid-area: 1 / 1 / 2 / 3;
 }
 
-#photo-manipulation1-work-container {
+#profile-picture-manipulation-work-container {
     grid-area: 2 / 1 / 3 / 2;
 }
 
-#photo-manipulation2-work-container {
+#profile-picture-before {
+    background-image:url('assets/profile-picture-source.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#profile-picture-after {
+    width: 55%;
+    justify-self: center;
+    align-self: center;
+}
+
+#gate-removal-work-container {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+#airport-picture-before {
+    background-image:url('assets/airport-picture-before.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#airport-picture-after {
+    background-image:url('assets/airport-picture-after.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /*WEB DESIGN SECTION*/
