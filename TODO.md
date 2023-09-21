@@ -36,6 +36,13 @@
 - [X] feat(svg, html, css): create before-after partioning for works
 - [X] feat(html, css): add content to pixel & retro art sub-section
 - [X] feat(html, css): add all sub-sections' and their general layouts
+- [X] feat(html, css): add photo manipulation sub-section
+- [ ] feat(html, css): reorder web design sub-section
+- [ ] feat(html, css): add content to glitch art section
+- [ ] feat(html, css): add content to web design section
+- [ ] feat(html, css): add content to photo manipulation section
+- [ ] feat(html, css): add content to illustration section
+- [ ] feat(html, css): add content to infographic video section
 
 ## Footer
 - [X] feat(html, css): add a footer
