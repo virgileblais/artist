@@ -368,6 +368,12 @@ span {
     grid-area: 2 / 1 / 3 / 3;
 }
 
+#glitched-mountain-container {
+    background-image:url('assets/glitched-mountains.gif');
+    background-size: cover;
+    background-position: center;
+}
+
 /*ILLUSTRATION SECTION*/
 #illustration-section {
     display: grid;

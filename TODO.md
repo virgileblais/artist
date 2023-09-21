@@ -37,8 +37,8 @@
 - [X] feat(html, css): add content to pixel & retro art sub-section
 - [X] feat(html, css): add all sub-sections' and their general layouts
 - [X] feat(html, css): add photo manipulation sub-section
-- [ ] feat(html, css): reorder web design sub-section
-- [ ] feat(html, css): add content to glitch art section
+- [X] feat(html, css): reorder web design sub-section
+- [X] feat(html, css, gif): add content to glitch art section
 - [ ] feat(html, css): add content to web design section
 - [ ] feat(html, css): add content to photo manipulation section
 - [ ] feat(html, css): add content to illustration section
