@@ -3,6 +3,7 @@
 ## General Tasks
   - [X] feat(xcf, png): create mobile webpage mockup
   - [X] feat(html): create starter layout and containers
+  - [X] feat (png): add nav icon assets
   - [ ] feat(html): add meta tags
   - [ ] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
@@ -17,7 +18,7 @@
   - [ ] feat(html): translate to portuguese and add portuguese meta tags
 
 ## Header
-- [ ] feat(html, css): add nav bar
+- [X] feat(html, css): add nav bar
 - [ ] feat(html, css): create "Work with Me" form button
 
 ## Hero Section
