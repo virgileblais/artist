@@ -415,9 +415,30 @@ span {
     grid-area: 1 / 1 / 2 / 3;
 }
 
-#illustration1-work-container {
+#protein-balance-animation-work-container {
     grid-area: 2 / 1 / 3 / 2;
 }
+
+#protein-balance-animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#protein-balance-animation {
+    height: 65%;
+}
+
+#avocado-animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#avocado-animation {
+    height: 90%;
+}
+
 
 #illustration2-work-container {
     grid-area: 2 / 2 / 3 / 3;

@@ -41,7 +41,8 @@
 - [X] feat(html, css, gif): add content to glitch art section
 - [X] feat(html, css): add content to photo manipulation section
 - [ ] feat(html, css): add content to web design section
-- [ ] feat(html, css): add content to illustration section
+- [X] feat(html, css): add protein balance animation to illustration section
+- [X] feat(html, css): add avocado animation to illustration section
 - [ ] feat(html, css): add content to infographic video section
 
 ## Footer
