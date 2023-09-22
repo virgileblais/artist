@@ -230,7 +230,8 @@ span {
 
 .tech-titles {
     padding-left: 1vw;
-    font-size: 1.5vh;
+    padding-bottom: 1vw;
+    font-size: 1vh;
     color: white;
     font-family: sans-serif;
 }
@@ -377,21 +378,21 @@ span {
 }
 
 #bci-for-sci-site {
-    height: 65%;
+    height: 90%;
 }
 
-#site2-work-container {
+#ecommerce-clothing-work-container {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-#site2-container {
+#ecommerce-clothing-site-container {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 
-#site2.site {
-    height: 65%;
+#ecommerce-clothing-site {
+    height: 90%;
 }
 
 /*GLITCH ART SECTION*/
