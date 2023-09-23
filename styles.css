@@ -69,18 +69,19 @@ nav {
 .information-grid {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    gap: 2rem;
+    padding-left: 2vw;
+    padding-right: 4vw;
 }
 
 .dropdown-links {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1.5vh;
 }
 
 .link {
     color: #3399ff;
-    font-size: 50px;
+    font-size: 5.5vw;
 }
 
 body {
@@ -171,6 +172,7 @@ span {
 
 .subsection-title-text {
     font-family: sans-serif;
+    font-size: 5vw;
 }
 
 .work-container {
@@ -259,7 +261,7 @@ span {
 }
 
 #rocket {
-    width: 25%;
+    width: 20%;
     justify-self: center;
     align-self: center;
 }
@@ -562,7 +564,7 @@ footer {
     
     .tech-titles {
         padding-left: 0.6vw;
-        padding-bottom: 0.4vw;
+        padding-bottom: 0.4vw
     }
 
     #protein-balance-animation {

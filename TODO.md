@@ -58,4 +58,4 @@
 - [X] fix(html, css): update starship assets' references
 - [X] fix(css): update real starship sizing and position for responsiveness
 - [X] feat(css): add tablet breakpoint
-- [ ] feat(css): add desktop breakpoint
+- [X] feat(css): add desktop breakpoint
