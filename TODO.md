@@ -53,6 +53,6 @@
 - [X] feat(css): adjust sizing and positioning for mobile responsiveness
 - [X] feat(xcf): increase canvas size of real starship image to allow for responsive resizing & move files to a subdirectory named startship-assets
 - [X] fix(html, css): update starship assets' references
-- [ ] fix(css): update real starship sizing and position for responsiveness
+- [X] fix(css): update real starship sizing and position for responsiveness
 - [ ] feat(css): add tablet breakpoint
 - [ ] feat(css): add desktop breakpoint

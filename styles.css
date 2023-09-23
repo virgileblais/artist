@@ -254,7 +254,7 @@ span {
 
 #real-starship-container {
     background-image:url('assets/starship-assets/starship-real-expanded.png');
-    background-size: cover;
+    background-size: 150%;
     background-position: center;
 }
 
@@ -541,7 +541,7 @@ footer {
     
     #real-starship-container {
         background-image:url('assets/starship-assets/starship-real-expanded.png');
-        background-size: 60%;
+        background-size: 120%;
         background-position: center;
     }
     
