@@ -4,7 +4,7 @@
   - [X] feat(xcf, png): create mobile webpage mockup
   - [X] feat(html): create starter layout and containers
   - [X] feat(png): add nav icon assets
-  - [ ] fix(html,css): polish visuals in preparation for reveal
+  - [X] feat(html): change portfolio name from artist to multimedia designer
   - [ ] feat(html): add meta tags
   - [ ] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
