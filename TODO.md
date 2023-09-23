@@ -43,7 +43,9 @@
 - [X] feat(html, css): add content to photo manipulation section
 - [X] feat(html, css, xcf): add content to web design section
 - [X] feat(html, css): add protein balance animation to illustration section
-- [ ] fix(xcf): colorize blue and black layers on protein balance animation to white to accord with site's theme colors
+- [X] feat(scm): create script to colorize blue and black layers on protein balance animation to white to accord with site's theme colors
+- [ ] fix(xcf, scm): run batch colorize script
+- [ ] fix(xcf): colorize black curve layer on protein balance animation to white to accord with site's theme colors
 - [X] feat(html, css): add avocado animation to illustration section
 - [ ] feat(html, css): add content to infographic video section
 
