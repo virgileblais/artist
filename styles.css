@@ -253,7 +253,7 @@ span {
 }
 
 #real-starship-container {
-    background-image:url('assets/starship-real.jpg');
+    background-image:url('assets/starship-assets/starship-real-expanded.png');
     background-size: cover;
     background-position: center;
 }
@@ -537,11 +537,17 @@ footer {
     color: white;
 }
 
-
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 768px) {
+    
     #real-starship-container {
-        background-image:url('assets/starship-real.jpg');
-        background-size: cover;
+        background-image:url('assets/starship-assets/starship-real-expanded.png');
+        background-size: 60%;
         background-position: center;
+    }
+    
+    #rocket {
+        width: 15%;
+        justify-self: center;
+        align-self: center;
     }
 }
