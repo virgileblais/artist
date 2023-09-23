@@ -9,7 +9,7 @@
   - [X] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
     - "In the expansion of my professional skill set, I'm excited to unveil another dimension: my work as an artist.Far from a new venture, these artistic endeavors have been a long-standing but lesser-known component of my skill set that I'm now bringing into my professional sphere."
-  - [ ] feat(xcf, png): create og image
+  - [X] feat(xcf, png): create og image
   - [ ] feat(html): add og image
   - [ ] feat(html): translate to french and add french meta tags
   - [ ] feat(html): translate to spanish and add spanish meta tags
