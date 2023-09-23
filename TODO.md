@@ -43,6 +43,7 @@
 - [X] feat(html, css): add content to photo manipulation section
 - [X] feat(html, css, xcf): add content to web design section
 - [X] feat(html, css): add protein balance animation to illustration section
+- [ ] fix(xcf): colorize blue and black layers on protein balance animation to white to accord with site's theme colors
 - [X] feat(html, css): add avocado animation to illustration section
 - [ ] feat(html, css): add content to infographic video section
 
@@ -54,5 +55,5 @@
 - [X] feat(xcf): increase canvas size of real starship image to allow for responsive resizing & move files to a subdirectory named startship-assets
 - [X] fix(html, css): update starship assets' references
 - [X] fix(css): update real starship sizing and position for responsiveness
-- [ ] feat(css): add tablet breakpoint
+- [X] feat(css): add tablet breakpoint
 - [ ] feat(css): add desktop breakpoint

@@ -230,7 +230,7 @@ span {
 .tech-titles {
     padding-left: 1vw;
     padding-bottom: 1vw;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: white;
     font-family: sans-serif;
 }
@@ -537,6 +537,15 @@ footer {
     color: white;
 }
 
+@media only screen and (min-width: 500px) {
+    
+    #protein-balance-animation {
+        height: 75%;
+    }
+}
+
+
+/*TABLET BREAKPOINT*/
 @media only screen and (min-width: 768px) {
     
     #real-starship-container {
@@ -549,5 +558,18 @@ footer {
         width: 15%;
         justify-self: center;
         align-self: center;
+    }
+    
+    .tech-titles {
+        padding-left: 0.6vw;
+        padding-bottom: 0.4vw;
+    }
+
+    #protein-balance-animation {
+        height: 90%;
+    }
+
+    #avocado-animation {
+        height: 100%;
     }
 }
