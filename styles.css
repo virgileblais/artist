@@ -619,7 +619,7 @@ footer {
     }
 }
 
-/*SMALL DESKTOP BREAKPOINT*/
+/*LARGE TABLET BREAKPOINT*/
 @media only screen and (min-width: 849px) {
 
     #profile-picture {
@@ -629,7 +629,7 @@ footer {
     }
 }
 
-/*MEDIUM DESKTOP BREAKPOINT*/
+/*SMALL DESKTOP BREAKPOINT*/
 @media only screen and (min-width: 1279px) {
     
     #nav-container {
@@ -862,37 +862,190 @@ footer {
     }
 }
 
-/*LARGE DESKTOP BREAKPOINT*/
-@media only screen and (min-width: 1504px) {
+/*MEDIUM DESKTOP BREAKPOINT*/
+@media only screen and (min-width: 1400px) {
 
-    #greeting-text {
-        font-size: 5vw;
-    }
-
-    #profile-picture {
-        width: 10vw;
-        height: 10vw;
-        margin-left: 5vw;
+    #nav-container {
+        height: 8vh;
     }
     
+    .icon {
+        height: 3.75vh;
+    }
+    
+    #email-icon, #linkedin-logo {
+        padding-left: 1.5vw;
+    }
+    
+    nav {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    #hamburger-icon {
+        height: 3.75vh;
+        width: 3.75vh;
+    }
+    
+    #hero-content-container {
+        padding-top: 1%;
+    }
+    
+    /* #greeting-text {
+        font-size: 7.5vw;
+    } */
+    
+    /* #profile-picture {
+        width: 8vw;
+        height: 8vw;
+        margin-left: 7vw;
+    } */
+    
     #introduction-text {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
     
     ul {
-        font-size: 1.8vw;
+        font-size: 1.6vw;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .subsection-title-text {
+        font-size: 2.4vw;
+    }
+
+    .work-container {
+        height: 14vw;
+    }
+
+    .tech-titles {
+        font-size: 1.2vw;
+        padding-left: 1vw;
+        padding-bottom: 0.3vw;
+    }
+
+    #works-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        row-gap: 2vh;
+        column-gap: 2vh;
+        padding-top: 2vh;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        padding-bottom: 2vh;
+    }
+
+    #pixel-and-retro-art-section {
+        row-gap: 2vh;
+        column-gap: 2vh;
+    }
+
+    #photo-manipulation-section {
+        row-gap: 2vh;
+        column-gap: 2vh;
+    }
+
+    #web-design-section {
+        row-gap: 2vh;
+        column-gap: 2vh;
+    }
+
+    #glitch-art-section {
+        row-gap: 2vh;
+        column-gap: 2vh;
+    }
+
+    #illustration-section {
+        row-gap: 2vh;
+        column-gap: 2vh;
+    }
+}
+
+/*LARGE DESKTOP BREAKPOINT*/
+@media only screen and (min-width: 1600px) {
+
+    .work-container {
+        height: 11vw;
     }
 
     .arrow {
-        height: 4vw;
-        width: 4vw;
+        width: 2.5vw;
+        height: 2.5vw;
     }
-    
+
     #real-starship-container {
-        background-size: 80%;
+        background-size: 57%;
     }
     
     #rocket {
-        width: 9%;
+        width: 7%;
     }
+
+    #profile-picture-before {
+        background-size: 100%;
+    }
+
+    #profile-picture-after {
+        width: 30%;
+    }
+
+    #bci-for-sci-site-work-container {
+        height: 15.7vw;
+    }
+
+    #ecommerce-clothing-work-container {
+        height: 15.7vw;
+    }
+
+    #glitched-mountain-work-container {
+        height: 17.2vw;
+      }
+
+}
+
+/*XLARGE DESKTOP BREAKPOINT*/
+@media only screen and (min-width: 2300px) {
+    
+    nav {
+        margin-left: 5.25vw;
+        margin-right: 5.25vw;
+    }
+
+    #hero-content-container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        padding-bottom: 0.5%;
+        padding-top: 0.25%;
+    }
+
+    #greeting-text {
+        font-size: 3vw;
+    }
+
+    #profile-picture {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #introduction-text {
+        font-size: 1.5vw;
+    }
+
+    ul {
+        font-size: 1.2vw;
+    }
+
+    .subsection-title-text {
+        font-size: 1.5vw;  
+    }
+
+    .digital-column {
+        margin-left: 2.5vw;
+    }
+
+    #protein-balance-animation {
+        height: 90%;
+      }
 }
