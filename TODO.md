@@ -58,4 +58,5 @@
 - [X] fix(html, css): update starship assets' references
 - [X] fix(css): update real starship sizing and position for responsiveness
 - [X] feat(css): add tablet breakpoint
-- [X] feat(css): add desktop breakpoint
+- [X] feat(html, css): add desktop breakpoint and ensure complete responsivness
+- [ ] feat(xcf): increase canvas size of airport-picture-before & airport-picture-after to allow for responsive resizin
