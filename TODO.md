@@ -3,7 +3,8 @@
 ## General Tasks
   - [X] feat(xcf, png): create mobile webpage mockup
   - [X] feat(html): create starter layout and containers
-  - [X] feat (png): add nav icon assets
+  - [X] feat(png): add nav icon assets
+  - [ ] fix(html,css): polish visuals in preparation for reveal
   - [ ] feat(html): add meta tags
   - [ ] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
@@ -20,7 +21,7 @@
 ## Header
 - [X] feat(html, css): add nav bar
 - [X] feat(html, css): add home dropdown link
-- [ ] feat(html, css): create "Work with Me" form button
+- [X] feat(html, css): create "Work with Me" form button
 
 ## Hero Section
 - [X] feat(xcf, gif): create glitch version of profile picture
@@ -49,6 +50,6 @@
 - [X] feat(html, css): add a footer
 
 ## Responsive Design
-
+- [X] feat(css): adjust sizing and positioning for mobile responsiveness
 - [ ] feat(css): add tablet breakpoint
 - [ ] feat(css): add desktop breakpoint
