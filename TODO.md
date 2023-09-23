@@ -6,7 +6,7 @@
   - [X] feat(png): add nav icon assets
   - [X] feat(html): change portfolio name from artist to multimedia designer
   - [ ] feat(html): add meta tags
-  - [ ] feat(html): add favicon
+  - [X] feat(html): add favicon
   - [ ] publish linked in post presenting portfolio
     - "In the expansion of my professional skill set, I'm excited to unveil another dimension: my work as an artist.Far from a new venture, these artistic endeavors have been a long-standing but lesser-known component of my skill set that I'm now bringing into my professional sphere."
   - [ ] feat(xcf, png): create og image
